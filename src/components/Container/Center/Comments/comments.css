@@ -31,6 +31,7 @@
 }
 .comment__add .comment__icons * {
   cursor: pointer;
+  color: #111111;
 }
 
 .comment__list {
