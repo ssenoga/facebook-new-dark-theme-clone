@@ -25,6 +25,7 @@ export default function RightComponet() {
       </div>
       <div className="right__round">
         <NotificationsNoneIcon />
+        <span>99</span>
       </div>
       <div className="right__round">
         <ArrowDropDownIcon />

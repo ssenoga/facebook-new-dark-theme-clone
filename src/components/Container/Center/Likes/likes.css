@@ -1,0 +1,25 @@
+.app__likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  color: #fff;
+  border-bottom: 1px solid lightgray;
+}
+.app__likes .likes__count {
+  display: flex;
+}
+.likes__count .likes__rounded {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.likes__rounded .like {
+  font-size: 0.8rem;
+  color: #fff;
+}

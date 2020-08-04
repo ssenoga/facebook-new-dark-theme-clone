@@ -1,0 +1,28 @@
+.central__header {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.central__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.header__text {
+  margin-left: 10px;
+  text-align: left;
+}
+.header__text h5 {
+  font-weight: 400;
+  font-size: 1.1rem;
+}

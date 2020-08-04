@@ -1,0 +1,39 @@
+.app__comments {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.comment__add {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+.comment__add img {
+  flex: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 5px;
+}
+.comment__add input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #222;
+  background-color: #6666;
+  color: #fff;
+}
+.comment__add .comment__icons {
+  position: absolute;
+  right: 3px;
+  top: 5px;
+}
+.comment__add .comment__icons * {
+  cursor: pointer;
+}
+
+.comment__list {
+  padding: 10px;
+  color: #fff;
+}

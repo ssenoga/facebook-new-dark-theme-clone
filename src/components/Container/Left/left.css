@@ -1,0 +1,44 @@
+.container__left {
+  width: 28vw;
+
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.container__left ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.container__left ul li {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.container__left ul li:hover {
+  background: #2f3235d7;
+}
+.container__left .container__icon {
+  margin-right: 10px;
+  font-size: 1.8em;
+}
+.container__left .circle {
+  border-radius: 50%;
+  background: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+hr {
+  height: 1px;
+  border: 1px solid lightgray;
+}

@@ -15,8 +15,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
-
+.right__round span {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  object-fit: contain;
+}
 .right__rounded {
   display: flex;
   align-items: center;

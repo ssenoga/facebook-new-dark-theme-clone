@@ -4,6 +4,22 @@
 }
 .center__logos {
   width: 25%;
+  padding: 10px;
+  position: relative;
+}
+.center__logos span {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  object-fit: contain;
 }
 .center__logos:hover {
   border-radius: 10px;
@@ -11,7 +27,7 @@
   cursor: pointer;
 }
 .center__logo {
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 .center .active {

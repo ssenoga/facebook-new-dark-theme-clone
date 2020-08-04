@@ -1,0 +1,24 @@
+.addLike__buttons {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.addLike__buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addLike__buttons button:hover {
+  background-color: #666666;
+  border-radius: 10px;
+}

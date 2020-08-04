@@ -15,9 +15,11 @@ export default function CenterComponent() {
       </div>
       <div className="center__logos">
         <FlagIcon className="center__logo" />
+        <span>9+</span>
       </div>
       <div className="center__logos">
         <OndemandVideoIcon className="center__logo" />
+        <span>7</span>
       </div>
       <div className="center__logos">
         <GroupIcon className="center__logo" />
