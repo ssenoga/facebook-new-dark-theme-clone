@@ -1,0 +1,29 @@
+.right {
+  width: 28vw;
+  display: flex;
+  background: green;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right__round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  object-fit: contain;
+  background: #444444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right__rounded {
+  display: flex;
+  align-items: center;
+}
+
+.right__rounded .right__round {
+  padding: 0;
+  margin-right: 5px;
+}

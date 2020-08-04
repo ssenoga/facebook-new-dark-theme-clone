@@ -1,0 +1,15 @@
+.center {
+  width: 40vw;
+  display: flex;
+  background-color: red;
+}
+.center__logos {
+  width: 25%;
+}
+.center__logos:hover {
+  background: lightgray;
+  border-radius: 10px;
+}
+.center__logo {
+  font-size: 2.5rem;
+}
