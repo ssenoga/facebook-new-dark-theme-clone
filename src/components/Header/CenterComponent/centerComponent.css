@@ -1,15 +1,24 @@
 .center {
   width: 40vw;
   display: flex;
-  background-color: red;
 }
 .center__logos {
   width: 25%;
 }
 .center__logos:hover {
-  background: lightgray;
   border-radius: 10px;
+  background: #2f3235d7;
+  cursor: pointer;
 }
 .center__logo {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
+}
+
+.center .active {
+  color: rgba(56, 88, 152);
+  border-bottom: 3px solid rgba(56, 88, 152);
+  transform: scale(1.02);
+  padding-bottom: 0;
+  margin-bottom: -7px;
+  /* transition: transform 250ms; */
 }

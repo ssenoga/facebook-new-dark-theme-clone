@@ -1,7 +1,6 @@
 .right {
   width: 28vw;
   display: flex;
-  background: green;
   align-items: center;
   justify-content: space-between;
 }
