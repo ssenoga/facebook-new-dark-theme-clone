@@ -5,7 +5,7 @@ import "./leftComponent.css";
 
 export default function LeftComponent() {
   return (
-    <div class="app__left">
+    <div className="app__left">
       {/* icon here */}
       <div className="logo">
         <img

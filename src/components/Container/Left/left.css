@@ -1,9 +1,15 @@
 .container__left {
   width: 28vw;
-
+  position: static;
+  overflow: scroll;
   padding: 20px;
   border-radius: 10px;
   color: #fff;
+}
+
+.container__left::-webkit-scrollbar {
+  width: 10px;
+  color: lightgray;
 }
 
 .container__left ul {

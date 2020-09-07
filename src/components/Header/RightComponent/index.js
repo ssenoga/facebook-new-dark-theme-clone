@@ -8,7 +8,7 @@ import "./rightComponent.css";
 
 export default function RightComponet() {
   return (
-    <div class="right">
+    <div className="right">
       <div className="right__rounded">
         <img
           className="right__round"

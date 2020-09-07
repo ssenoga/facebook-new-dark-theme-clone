@@ -24,6 +24,9 @@
   background-color: #6666;
   color: #fff;
 }
+.comment__add input:focus {
+  outline-width: 0;
+}
 .comment__add .comment__icons {
   position: absolute;
   right: 3px;
